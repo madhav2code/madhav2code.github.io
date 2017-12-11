@@ -1,1 +1,28 @@
+# Site settings
+title: Madhav's Blog
+header-img: img/home-bg.jpg
+email: madhav2code@gmail.com
+copyright_name: Code 2 Thrive
+description: "Code 2 Thrive!"
+baseurl: ""
+url: "https://www.code2thrive.com"
+enforce_ssl: www.code2thrive.com
+twitter_username: madhav2code
+github_username:  madhav2code
+facebook_username:  madhav2code
+email_username:  madhav2code@gmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
+
 theme: jekyll-theme-cayman
