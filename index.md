@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Madhav's Blog
 
 You can use the [editor on GitHub](https://github.com/madhav2code/madhav2code.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
