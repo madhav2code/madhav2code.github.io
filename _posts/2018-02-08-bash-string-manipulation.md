@@ -32,3 +32,29 @@ str="${str// /_}"
 echo "${str}"
 test_string_main
 ```
+
+### BASH check if string starts with ###
+```sh
+str="test string main"
+echo "${str}"
+test string main
+if [[ "${str}" =~ ^test.* ]]; then
+	echo "Yes"
+else
+	echo "No"
+fi
+Yes
+```
+
+### BASH check if string does not start with ###
+```sh
+str="test string main"
+echo "${str}"
+test string main
+if [[ ! "${str}" =~ ^test.* ]]; then
+	echo "Yes"
+else
+	echo "No"
+fi
+No
+```
